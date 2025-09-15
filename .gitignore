@@ -1,2 +1,39 @@
+# OS-specific
 .DS_Store
-.gitignore
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Streamlit specific
+.streamlit/
+
+# Models / Large files (if you don’t want to version them)
+*.pkl
+*.h5
+*.joblib
+
+# Data files (optional: keep if you want versioned datasets)
+data/
+*.csv
+*.xlsx
+*.parquet
